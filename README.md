@@ -23,3 +23,19 @@ Basically we need to come up with a JSON interface to input data, something like
 
 - OSM
 - Openlayers
+
+## Setup
+
+After checkout:
+
+`$ cd ABCD`
+
+`$ python3 -m venv env`
+
+`$ source env/bin/activate`
+
+`$ pip install -r requirements.txt`
+
+`$ cd abcd`
+
+`$ python manage.py runserver 0.0.0.0:8080`
