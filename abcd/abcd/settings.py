@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'abc_ingest.apps.AbcIngestConfig',
+    'abc_map.apps.AbcMapConfig',
+    'abc_eval.apps.AbcEvalConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
