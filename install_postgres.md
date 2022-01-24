@@ -11,8 +11,6 @@
 
 `$ sudo systemctl enable postgresql`
 
-`$ sudo 
-
 
 `$ sudo -i -u postgres`
 
@@ -26,4 +24,4 @@
 
 `createdb -D abcd -O abcd -U abcd`
 
-`$ createdb -O abcd abcd` 
+`$ createdb -O abcd abcd`
