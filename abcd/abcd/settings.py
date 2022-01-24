@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'abcd.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': "abcd",
+        'USER': "abcd",
+        'PASSWORD': "abcd",
+        'HOST': "localhost",
+        'PORT': "5432",  # 5432 by default
     }
 }
 
