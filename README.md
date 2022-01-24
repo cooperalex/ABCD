@@ -7,4 +7,3 @@ Basically we need to come up with a JSON interface to input data, something like
 
 ..and anything else I missed
 
-In the interest of a VERY open git experience, I’ve started a github project.
